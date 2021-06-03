@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #61dafb;
+}
+
+.game-board {
+  /* align-items: stretch; */
+  height: 400px;
+  width: 200px;
+  margin: 20px;
+  background-image: url('assets/imgs/wood-grain.jpg');
+}
+
+.board-shadow {
+  /* filter: drop-shadow(0 0 30px #333); */
+  filter: drop-shadow(20px 5px 0.9rem #666);
+}
+
+.board-info {
+  height: 400px;
+  width: 200px;
+  /* align-content: space-between; */
+  /* align-items: flex-end; */
+}
+
+.player {
+  margin-top: 15%;
+}
+
+.score {
+  margin-top: 80%;
+  /* align-self: flex-end; */
+}
